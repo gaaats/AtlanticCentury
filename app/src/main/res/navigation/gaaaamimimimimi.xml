@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gaaaamimimimimi"
+    app:startDestination="@id/oneeeeeeeeeeFragment">
+
+    <fragment
+        android:id="@+id/oneeeeeeeeeeFragment"
+        android:name="com.tocaboca.tocalifeworldu.rfojgtjoigtjiogt.rgthyhyhyhy.OneeeeeeeeeeFragment"
+        android:label="fragment_oneeeeeeeeee"
+        tools:layout="@layout/fragment_oneeeeeeeeee" >
+        <action
+            android:id="@+id/action_oneeeeeeeeeeFragment_to_gammmmmmmmamaeeTvooooFragment"
+            app:destination="@id/gammmmmmmmamaeeTvooooFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gammmmmmmmamaeeTvooooFragment"
+        android:name="com.tocaboca.tocalifeworldu.rfojgtjoigtjiogt.gthyhyyh.GammmmmmmmamaeeTvooooFragment"
+        android:label="fragment_gammmmmmmmamaee_tvoooo"
+        tools:layout="@layout/fragment_gammmmmmmmamaee_tvoooo" >
+        <action
+            android:id="@+id/action_gammmmmmmmamaeeTvooooFragment_to_gaaaememem3Fragment"
+            app:destination="@id/gaaaememem3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaememem3Fragment"
+        android:name="com.tocaboca.tocalifeworldu.rfojgtjoigtjiogt.gthyhyyh.Gaaaememem3Fragment"
+        android:label="fragment_gaaaememem3"
+        tools:layout="@layout/fragment_gaaaememem3" >
+        <action
+            android:id="@+id/action_gaaaememem3Fragment_to_oneeeeeeeeeeFragment"
+            app:destination="@id/oneeeeeeeeeeFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/oneeeeeeeeeeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

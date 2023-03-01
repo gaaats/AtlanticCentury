@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mmmmmmmmmghhyhy"
+    app:startDestination="@id/oneeeee1111Fragment">
+
+    <fragment
+        android:id="@+id/oneeeee1111Fragment"
+        android:name="com.tocaboca.tocalifeworldu.rfojgtjoigtjiogt.rgthyhyhyhy.Oneeeee1111Fragment"
+        android:label="fragment_oneeeee1111"
+        tools:layout="@layout/fragment_oneeeee1111" >
+        <action
+            android:id="@+id/action_oneeeee1111Fragment_to_tvoooooo2Fragment"
+            app:destination="@id/tvoooooo2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tvoooooo2Fragment"
+        android:name="com.tocaboca.tocalifeworldu.vgghhyhy.gtthyhyhy.Tvoooooo2Fragment"
+        android:label="fragment_tvoooooo2"
+        tools:layout="@layout/fragment_tvoooooo2" >
+        <action
+            android:id="@+id/action_tvoooooo2Fragment_to_threeeee3Fragment"
+            app:destination="@id/threeeee3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/threeeee3Fragment"
+        android:name="com.tocaboca.tocalifeworldu.vgghhyhy.gtthyhyhy.Threeeee3Fragment"
+        android:label="fragment_threeeee3"
+        tools:layout="@layout/fragment_threeeee3" >
+        <action
+            android:id="@+id/action_threeeee3Fragment_to_foourur444Fragment"
+            app:destination="@id/foourur444Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foourur444Fragment"
+        android:name="com.tocaboca.tocalifeworldu.rfojgtjoigtjiogt.gthyhyyh.Foourur444Fragment"
+        android:label="fragment_foourur444"
+        tools:layout="@layout/fragment_foourur444" >
+        <action
+            android:id="@+id/action_foourur444Fragment_to_fiiiiveeveee555Fragment"
+            app:destination="@id/fiiiiveeveee555Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiiiiveeveee555Fragment"
+        android:name="com.tocaboca.tocalifeworldu.rfojgtjoigtjiogt.Fiiiiveeveee555Fragment"
+        android:label="fragment_fiiiiveeveee555"
+        tools:layout="@layout/fragment_fiiiiveeveee555" />
+</navigation>

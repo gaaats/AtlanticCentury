@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Atlantic Century</string>
+    <string name="facebook_app_id">652799749869701</string>
+    <string name="facebook_client_token">d0c08d5c886bd55bf0a993a056fd724e</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
